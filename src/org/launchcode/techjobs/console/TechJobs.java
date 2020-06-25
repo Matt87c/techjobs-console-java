@@ -112,7 +112,7 @@ public class TechJobs {
     // Print a list of jobs
     private static void printJobs(ArrayList<HashMap<String, String>> someJobs) {
         if ( someJobs.size() == 0 ) {
-            System.out.println("No results were found.");
+            System.out.println("No job results were found.");
         } else {
                 for (HashMap<String, String> job : someJobs) {
                     System.out.println("*****");
@@ -124,25 +124,3 @@ public class TechJobs {
             }
         }
     }
-
-
-
-
-
-        /*if ( someJobs.size() > 0 ) {
-            for (int i = 0; i < someJobs.size(); i++) {
-                System.out.println("*****");
-                for (HashMap.Entry<String, String> entry : someJobs.get(i).entrySet()) {
-                    String key = entry.getKey();
-                    String value = entry.getValue();
-                    System.out.println(key + ": " + value);
-                }
-                System.out.println("*****");
-            }
-        } else {
-            System.out.println("No results were found.");
-        }*/
-
-
-
-
